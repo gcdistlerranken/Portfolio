@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Calculator</title>
+
+    <link rel="icon" href="img/javascriptIcon.ico">
+    <link rel="stylesheet" href="css/javascriptStyle.css">
+
+    <script src="js/javascript-bmi.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="javascript-index.html"><img src="img/gymlogo.jpg" style="float: left; width: 200px; height: 110px;"></a>
+        <br>
+        <h2>Fitness Gym</h2>
+        <nav>
+            <ul class="navbar">
+                <li class="navigation"><a href="javascript-index.html">Home</a></li>
+                <li class="navigation"><a href="javascript-about.html">About Us</a></li>
+                <li class="navigation"><a href="javascript-faq.html">FAQs</a></li>
+                <li class="navigation"><a href="javascript-bmi.html" class="active">BMI</a></li>
+                <li class="navigation"><a href="javascript-contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>BMI Calculator</h1>
+    <section>
+        <h2 style="text-align: center;"><span>NOTE: (*) Input Fields Are Mandatory!</span></h2>
+    </section>
+    <main style="padding-left: 325px;">
+        <form method="post" action="#">
+            <label for="height">Height: </label>
+            <input type="text" id="height"><span class="spaces">*</span><br><br>
+            <label for="weight">Weight: </label>
+            <input type="text" id="weight"><span class="spaces">*</span><br><br>
+
+            <label>&nbsp;</label>
+            <input type="button" id="calculate" value="Calculate BMI">&nbsp;&nbsp;&nbsp;
+            <input type="button" id="reset" value="Reset Form"><br><br>
+
+            <label for="bmi">BMI: </label>
+            <input type="text" id="bmi" disabled><span class="spaces"></span><br><br>
+            <label for="bmiStatus">Status: </label>
+            <input type="text" id="bmiStatus" disabled><span class="spaces"></span><br><br><br>
+        </form>
+    </main>
+
+    <footer>
+        &copy; Grace Distler 2018
+    </footer>
+
+</body>
+
+</html>

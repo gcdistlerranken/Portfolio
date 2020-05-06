@@ -1,0 +1,161 @@
+body {
+    /*            text-align: center;*/
+    width: 90%;
+    margin: 20px auto;
+    background-color: gainsboro;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* NAVBAR STYLING */
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li.navigation {
+    float: left;
+    display: inline;
+}
+
+li.navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navigation a:hover:not(.active) {
+    background-color: #111;
+}
+
+#active {
+    background-color: blue;
+}
+
+/* HOMEPAGE SLIDESHOW STYLING */
+.container {
+    width: 540px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.slider_outer {
+    margin-left: 110px;
+}
+
+.slider_inner {
+    width: 275px;
+    height: 183px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: #666 solid 1px;
+}
+
+.slider_inner img {
+    display: none;
+    width: 275px;
+    height: 183px;
+}
+
+.slider_inner img.active {
+    display: inline-block;
+}
+
+.prev,
+.next {
+    float: left;
+    margin-top: 130px;
+    cursor: pointer;
+}
+
+.prev {
+    position: relative;
+    margin-right: -45px;
+    z-index: 100;
+}
+
+.next {
+    position: relative;
+    margin-left: -45px;
+    z-index: 100;
+}
+
+/* ABOUTPAGE IMAGESWAP STYLING */
+#about_main {
+    text-align: center;
+}
+
+li.images {
+    display: inline;
+}
+
+h2.caption {
+    text-align: center;
+}
+
+/* FAQs PAGE STYLING */
+#accordion {
+    margin-left: 110px;
+}
+
+h3:hover {
+    color: blue;
+}
+
+p {
+    padding-bottom: .25em;
+    padding-left: 25px;
+    color: black;
+    font-size: 110%;
+}
+
+/* BMI PAGE STYLING */
+span {
+    color: red;
+    font-weight: bold;
+}
+
+span.spaces {
+    margin-left: 15px;
+}
+
+.clearFix {
+    float: none;
+}
+
+label {
+    float: left;
+    width: 10em;
+    margin-right: 1em;
+    text-align: right;
+    color: #203731;
+}
+
+input[type="text"],
+input[type="tel"],
+select {
+    width: 300px;
+    margin-bottom: .5em;
+    font-size: .75em;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[type="button"] {
+    width: 7em;
+    font-size: 1.25em;
+    color: #203731;
+}
